@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.bacgroundImageTop {
+  min-height: 70vh;
+  background-image: url("https://reservationteams.com/wp-content/uploads/2024/05/yvcg5x3pwzc.jpg");
+}
+.bacgroundImageReview {
+  min-height: 70vh;
+  background-image: url("https://reservationteams.com/wp-content/uploads/2024/05/a-nvhpka9rk.jpg");
+}
+.maHeignt550{
+max-height: 550px;
+}
+.contactCardClass {
+  text-transform: capitalize;
+  color: #000000;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.bookContent {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 57px;
+  font-weight: 700;
+  line-height: 74px;
+}
+.mtop100 {
+  margin-top: 100px;
+}
+.mtop {
+  margin-top: 65px;
+}
+.mw300 {
+  max-width: 300px;
+}
+.line {
+  height: 4px;
+  width: 40px;
+  background-color: white;
+}
+.blueline {
+  height: 1.5px;
+  width: 150px;
+  background-color: #3563ab;
+}
+.redline {
+  height: 1.5px;
+  width: 150px;
+  background-color: #bf0c1f;
+}
+.desrtinationCard {
+  transition: 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+.desrtinationCard:hover {
+  box-shadow: 7px 8px 0px 0px rgba(38, 16, 13, 0.15);
+}
+@media (max-width: 1024px) {
+  .bookContent {
+    font-size: 50px;
+    line-height: 55px;
+  }
+}
+@media (max-width: 767px) {
+  .bookContent {
+    margin: 20px 0px 20px 0px;
+    font-size: 42px;
+    line-height: 40px;
+  }
+}
