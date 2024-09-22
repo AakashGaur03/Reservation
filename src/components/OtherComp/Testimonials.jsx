@@ -28,29 +28,29 @@ const Testimonials = () => {
   return (
     <div className={`bacgroundImageReview mtop100 text-white d-flex `}>
       <section className="container my-5">
-        <h2 className="text-center">What Our Customers Say</h2>
-        <div class="eael-testimonial-content">
-          <div class="eael-testimonial-text">
+        <h2 className="text-center mb-5">What Our Customers Say</h2>
+        <div className="text-center">
+          <div className="customertext fst-italic">
             <p>Excellent</p>
           </div>{" "}
-          <ul class="testimonial-star-rating">
+          <ul className="customerstar-rating list-unstyled">
             <li>
-              <i class="fas fa-star" aria-hidden="true"></i>
+              <i className="fas fa-star small" aria-hidden="true"></i>
             </li>
             <li>
-              <i class="fas fa-star" aria-hidden="true"></i>
+              <i className="fas fa-star small" aria-hidden="true"></i>
             </li>
             <li>
-              <i class="fas fa-star" aria-hidden="true"></i>
+              <i className="fas fa-star small" aria-hidden="true"></i>
             </li>
             <li>
-              <i class="fas fa-star" aria-hidden="true"></i>
+              <i className="fas fa-star small" aria-hidden="true"></i>
             </li>
             <li>
-              <i class="fas fa-star" aria-hidden="true"></i>
+              <i className="fas fa-star small" aria-hidden="true"></i>
             </li>
           </ul>
-          <p class="eael-testimonial-user">
+          <p className="customeruser ital fst-italic mb-5">
             Top Rated 4.5 Out Of 5 Across 2087 Reviews!
           </p>{" "}
         </div>
@@ -58,14 +58,14 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <div key={index} className="col-md-4 mb-4">
               <div className="card text-center">
-                <div className="card-body">
-                  <p className="card-text">{testimonial.text}</p>
+                <div className="card-body" style={{padding:"2em"}}>
+                  <p className="card-text customercontent">"{testimonial.text}"</p>
                   <div className="d-flex justify-content-center align-items-center">
                     <img
                       src={testimonial.image}
                       alt={testimonial.name}
                       className="rounded-circle me-3"
-                      style={{ width: "60px", height: "60px" }}
+                      style={{ width: "41px", height: "41px" }}
                     />
                     <div>
                       <h5 className="mb-0">{testimonial.name}</h5>

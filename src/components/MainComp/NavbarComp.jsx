@@ -47,7 +47,7 @@ function NavbarComp() {
         </NavLink>
       </Nav>
 
-      <CallNowButton customClass="me-4" message={"Now"} />
+      <CallNowButton customclassName="me-4" message={"Now"} />
     </Navbar>
   );
 }
