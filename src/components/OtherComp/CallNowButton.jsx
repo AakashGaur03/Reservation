@@ -15,7 +15,7 @@ const CallNowButton = ({
     <Button
       href="tel:18556013858"
       className={`border-0 fw-bold fs-6 ${customClass}`}
-      style={{ padding: "7px 14px", backgroundColor: "#BF0C1F" }}
+      style={{ padding: "7px 12px", backgroundColor: "#BF0C1F" }}
     >
       {/* <svg
         className="me-2"
