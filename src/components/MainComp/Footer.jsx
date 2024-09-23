@@ -73,20 +73,20 @@ const Footer = () => {
                 </NavLink>
               </ListGroup.Item>
               <ListGroup.Item className="border-0 p-0 text-center">
-                <a
-                  href="https://reservationteams.com/privacy-policy/"
+                <NavLink
+                  to="/privacy-policy"
                   style={{ textDecoration: "none", color: "#000" }}
                 >
                   Privacy Policy
-                </a>
+                </NavLink>
               </ListGroup.Item>
               <ListGroup.Item className="border-0 p-0 text-center">
-                <a
-                  href="https://reservationteams.com/refund-policy/"
+                <NavLink
+                  to="/refund-policy"
                   style={{ textDecoration: "none", color: "#000" }}
                 >
                   Refund Policy
-                </a>
+                </NavLink>
               </ListGroup.Item>
             </ListGroup>
           </Col>

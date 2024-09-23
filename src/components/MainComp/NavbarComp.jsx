@@ -41,13 +41,16 @@ function NavbarComp() {
         <NavLink
           className="nav-link text-center fs-5 fw-semibold"
           style={{ width: "140px" }}
-          to="/destination"
+          // to="/destination"
+          to="#"
         >
           Destinations
         </NavLink>
       </Nav>
 
-      <CallNowButton customclassName="me-4" message={"Now"} />
+      <div className="me-4">
+        <CallNowButton message={"Now"} />
+      </div>
     </Navbar>
   );
 }

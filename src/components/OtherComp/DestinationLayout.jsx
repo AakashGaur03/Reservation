@@ -6,7 +6,7 @@ const DestinationLayout = () => {
   return (
     <>
       <Container>
-        <div>Top Trending Destinations</div>
+        <div className="fs40 mb-3 text-center">Top Trending Destinations</div>
         <Row>
           <PlacesCard />
           <PlacesCard />
