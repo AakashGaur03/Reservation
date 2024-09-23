@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import ParallexAbout from "../OtherComp/ParallexAbout";
 
 const About = () => {
   return (
-    <div>About</div>
-  )
-}
+    <>
+      <ParallexAbout />
+    </>
+  );
+};
 
-export default About
+export default About;

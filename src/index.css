@@ -18,6 +18,67 @@
   /* background-position: center; */
   padding: 5rem 0;
 }
+.bgImageParallex1 {
+  background-image: url("https://reservationteams.com/wp-content/uploads/2024/05/cspju6hyo_0.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+  color: white;
+  text-align: center;
+}
+.imageHue {
+  filter: brightness(101%) contrast(98%) saturate(0%) blur(0px)
+    hue-rotate(48deg);
+}
+.ourStoryAbout {
+  top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  left: 45%;
+  right: 9%;
+  background: white;
+  color: black;
+}
+.parallax-header h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.parallax-header h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.about-text {
+  padding: 20px;
+}
+
+.about-text h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
 .customercontent {
   color: #000000;
   font-family: "Montserrat", Sans-serif;
