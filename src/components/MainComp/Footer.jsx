@@ -16,7 +16,7 @@ const Footer = () => {
         <Row>
           <Col md={3}>
             <img
-              src="https://reservationteams.com/wp-content/uploads/2024/09/resteams.png"
+              src="/logo.png"
               alt="resteams"
               style={{ width: "150px" }}
             />

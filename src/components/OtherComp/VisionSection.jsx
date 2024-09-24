@@ -25,7 +25,7 @@ const VisionSection = () => {
                   customClassTitle="fs30"
                   customClassText="customFontCard"
                   cardImage={
-                    "https://reservationteams.com/wp-content/uploads/elementor/thumbs/eowabmcnedg-quctj93j8hoeyokws5rze02m31opnv8yqcoz328m60.jpg"
+                    "/stones.jpg"
                   }
                   cardTitle={"Our Vision"}
                   cardText={
@@ -39,7 +39,7 @@ const VisionSection = () => {
                   customClassTitle="fs30"
                   customClassText="customFontCard"
                   cardImage={
-                    "https://reservationteams.com/wp-content/uploads/elementor/thumbs/ypkurn54y4w-quctjaz7m5qzlwi6h6l8izlj9tfg39gfelzy1m5ttk.jpg"
+                    "/girlMountain.jpg"
                   }
                   cardTitle={"Our Mission"}
                   cardText={

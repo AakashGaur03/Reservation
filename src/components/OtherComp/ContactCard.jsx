@@ -12,7 +12,7 @@ const ContactCard = () => {
             <Card.Img
               className="mw300"
               variant="top"
-              src="https://reservationteams.com/wp-content/uploads/2024/05/call-center-customer-service-woman-8022155.jpg"
+              src="/supportWomen.jpg"
             />
           </div>
         </Col>

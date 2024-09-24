@@ -3,7 +3,7 @@ import { Card, Col, Row } from "react-bootstrap";
 import CallNowButton from "./CallNowButton";
 
 const CustomCard = ({
-  cardImage = "https://reservationteams.com/wp-content/uploads/elementor/thumbs/jphw8ndwj_q-quctjhk2xzzzv68merfmifxrfij0l56jrikcejw2m0.jpg",
+  cardImage = "/twoPeopleLaugh.jpg",
   cardTitle,
   cardText,
   customClass = "",

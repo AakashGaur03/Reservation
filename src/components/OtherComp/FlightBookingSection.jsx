@@ -71,7 +71,7 @@ const FlightBookingSection = () => {
           <Col lg={6} className="position-relative text-center">
             <div className="position-relative">
               <Image
-                src="https://reservationteams.com/wp-content/uploads/elementor/thumbs/bg8-Copy-quctjkdncachv324qxbv8wwq4519oh8gosmz5uc4sg.jpg"
+                src="/manOnBridge.jpg"
                 alt="Flight 2"
                 className="img-fluid"
                 style={{
@@ -81,7 +81,7 @@ const FlightBookingSection = () => {
                 }}
               />
               <Image
-                src="https://reservationteams.com/wp-content/uploads/elementor/thumbs/4-quctg82b1hrskzww9hbmdr9q2tiab7ytk94tqfaiww.jpg"
+                src="/streets.jpg"
                 alt="Flight"
                 className="img-fluid"
                 style={{

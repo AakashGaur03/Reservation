@@ -55,7 +55,7 @@ const TravelBook = () => {
           {/* Right Side */}
           <Col xl={7} className="ticketBookPadding bpxShadowTicketBooking">
             <Image
-              src="https://reservationteams.com/wp-content/uploads/2024/05/plane1.jpg"
+              src="/whitePlane.jpg"
               alt="Plane"
               fluid
               className="mb-4"

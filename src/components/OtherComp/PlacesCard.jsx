@@ -10,7 +10,7 @@ const PlacesCard = () => {
         <Card className="mb-4 border-0 desrtinationCard mb-5">
           <Card.Img
             variant="top"
-            src="https://reservationteams.com/wp-content/uploads/2024/05/60fwwpxv_fq.jpg"
+            src="/whiteBuilding.jpg"
             alt="white concrete houses near body of water during daytime"
           />
           <Card.Body>

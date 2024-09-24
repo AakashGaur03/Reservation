@@ -12,7 +12,7 @@ const OurServices = () => {
           <Col sm={12} md={6} lg={4} className="mb-4">
             <CustomCard
               cardImage={
-                "https://reservationteams.com/wp-content/uploads/elementor/thumbs/jphw8ndwj_q-quctjhk2xzzzv68merfmifxrfij0l56jrikcejw2m0.jpg"
+                "/twoPeopleLaugh.jpg"
               }
               cardTitle={"Reserve, Change Or Cancel Your Flight"}
               cardText={

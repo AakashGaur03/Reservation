@@ -12,7 +12,7 @@ const ParallexAbout = () => {
         <Row className="about-content position-relative">
           <Col md={6}>
             <img
-              src="https://reservationteams.com/wp-content/uploads/2024/05/mimi-thian-737711-unsplash.jpg"
+              src="/fourPeople.jpg"
               alt="Team"
               className="about-img opacity-75 imageHue"
             />
@@ -123,7 +123,7 @@ const ParallexAbout = () => {
           <Col md={6}>
             <div className="planeImage mt-5">
               <img
-                src="https://reservationteams.com/wp-content/uploads/2024/05/91ykdj2wqeg-1536x1024.jpg"
+                src="/silverPlane.jpg"
                 alt="Team"
                 className="about-img opacity-75 imageHue"
               />

@@ -7,21 +7,21 @@ const Testimonials = () => {
       name: "Fiona",
       job: "Entrepreneur",
       image:
-        "https://reservationteams.com/wp-content/uploads/2024/05/hcjbrrnqf2e.jpg",
+        "/girlCurlyHair.jpg",
     },
     {
       text: "ReservationTeams is a great resource for finding budget-friendly flights. They offer a variety of discount options and highlight the cheapest fares prominently.",
       name: "Ben",
       job: "",
       image:
-        "https://reservationteams.com/wp-content/uploads/2024/05/v2aknjmbp_k.jpg",
+        "/manSmile.jpg",
     },
     {
       text: "It makes planning my travel adventures a breeze! The booking process is so smooth – I can lock in my dream trip in minutes!",
       name: "Ciara",
       job: "",
       image:
-        "https://reservationteams.com/wp-content/uploads/2024/05/dp3cs405uzm.jpg",
+        "/girlCheese.jpg",
     },
   ];
 

@@ -5,52 +5,55 @@ import CallNowButton from "../OtherComp/CallNowButton";
 
 function NavbarComp() {
   return (
-    <Navbar bg="light" expand="lg" className="d-none d-lg-flex">
+    <Navbar bg="light" expand="lg">
       <Navbar.Brand to="/">
         <img
           className="ms-4"
-          src="https://reservationteams.com/wp-content/uploads/2024/09/resteams.png"
+          src="/logo.png"
           width="250"
           height="40"
           alt="Rest Teams"
         />
       </Navbar.Brand>
 
-      <Nav className="mx-auto">
-        <NavLink
-          className="nav-link text-center fs-5 fw-semibold"
-          style={{ width: "140px" }}
-          to="/"
-        >
-          Home
-        </NavLink>
-        <NavLink
-          className="nav-link text-center fs-5 fw-semibold"
-          style={{ width: "140px" }}
-          to="/about"
-        >
-          About Us
-        </NavLink>
-        <NavLink
-          className="nav-link text-center fs-5 fw-semibold"
-          style={{ width: "140px" }}
-          to="/contact"
-        >
-          Contact Us
-        </NavLink>
-        <NavLink
-          className="nav-link text-center fs-5 fw-semibold"
-          style={{ width: "140px" }}
-          // to="/destination"
-          to="#"
-        >
-          Destinations
-        </NavLink>
-      </Nav>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" className="me-5" />
 
-      <div className="me-4">
-        <CallNowButton message={"Now"} />
-      </div>
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="mx-auto align-items-center">
+          <NavLink
+            className="nav-link text-center fs-5 fw-semibold"
+            style={{ width: "140px" }}
+            to="/"
+          >
+            Home
+          </NavLink>
+          <NavLink
+            className="nav-link text-center fs-5 fw-semibold"
+            style={{ width: "140px" }}
+            to="/about"
+          >
+            About Us
+          </NavLink>
+          <NavLink
+            className="nav-link text-center fs-5 fw-semibold"
+            style={{ width: "140px" }}
+            to="/contact"
+          >
+            Contact Us
+          </NavLink>
+          <a
+            className="nav-link text-center fs-5 fw-semibold"
+            style={{ width: "140px" }}
+            to="#"
+          >
+            Destinations
+          </a>
+        </Nav>
+
+        <div className="me-4 text-center">
+          <CallNowButton message={"Now"} />
+        </div>
+      </Navbar.Collapse>
     </Navbar>
   );
 }
