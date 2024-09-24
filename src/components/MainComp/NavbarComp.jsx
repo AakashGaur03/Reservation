@@ -41,13 +41,13 @@ function NavbarComp() {
           >
             Contact Us
           </NavLink>
-          <a
+          {/* <a
             className="nav-link text-center fs-5 fw-semibold"
             style={{ width: "140px" }}
             to="#"
           >
             Destinations
-          </a>
+          </a> */}
         </Nav>
 
         <div className="me-4 text-center">
