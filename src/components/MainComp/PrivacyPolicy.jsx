@@ -10,7 +10,6 @@ const PrivacyPolicy = () => {
 
         <p className="mt-4">
           <strong className="">Suggested text: </strong>Our website address is:
-          https://reservationteams.com.
         </p>
 
         <h2 className="">Comments</h2>
