@@ -12,10 +12,8 @@ const Home = () => {
   return (
     <>
       <ContentOnImage
-        heading={"Book your Flights at Lowest Price"}
-        text={
-          "Book your flights with us for a seamless, hassle-free experience and exclusive deals."
-        }
+        heading={"Book your  Flights at Lowest Price"}
+        text={"Book your flights with us for a seamless, hassle-free experience and exclusive deals."}
         bgImage={"bacgroundImageTop"}
         bookTicketButton={true}
       />
